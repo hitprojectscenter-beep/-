@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #e8eaf0;
+  --color-primary: #6366f1;
+  --color-on-surface: #2e3040;
+  --color-on-surface-variant: #585a68;
+  --font-headline: 'Assistant', 'Plus Jakarta Sans', sans-serif;
+  --font-body: 'Assistant', 'Plus Jakarta Sans', sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-surface);
+    color: var(--color-on-surface);
+    font-family: var(--font-body);
+    min-height: 100dvh;
+  }
+}
+
+@layer utilities {
+  .neo-raised {
+    box-shadow: 6px 6px 12px rgba(0,0,0,0.08), -6px -6px 12px rgba(255,255,255,0.6);
+  }
+  .neo-inset {
+    box-shadow: inset 4px 4px 8px rgba(0,0,0,0.06), inset -4px -4px 8px rgba(255,255,255,0.5);
+  }
+  .neo-raised-large {
+    box-shadow: 12px 12px 24px rgba(0,0,0,0.08), -12px -12px 24px rgba(255,255,255,0.6);
+  }
+}
