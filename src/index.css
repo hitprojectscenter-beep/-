@@ -28,4 +28,11 @@
   .neo-raised-large {
     box-shadow: 12px 12px 24px rgba(0,0,0,0.08), -12px -12px 24px rgba(255,255,255,0.6);
   }
+  .animate-marquee {
+    animation: marquee 25s linear infinite;
+  }
+  @keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
 }
