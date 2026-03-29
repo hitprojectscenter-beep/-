@@ -1,0 +1,52 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // ===============================================================
+    // Assumed Data Model
+    // ===============================================================
+    //
+    // Collection: blessings
+    // Document ID: auto-generated
+    // Fields:
+    //   - name: string (required, length 1-50)
+    //   - message: string (required, length 1-500)
+    //   - createdAt: timestamp (required, immutable)
+    //
+    // ===============================================================
+
+    // Helper Functions
+    function hasRequiredFields(fields) {
+      return request.resource.data.keys().hasAll(fields);
+    }
+    
+    function hasOnlyAllowedFields(fields) {
+      return request.resource.data.keys().hasOnly(fields);
+    }
+
+    function validStringLength(field, minLen, maxLen) {
+      return request.resource.data[field] is string &&
+        request.resource.data[field].size() >= minLen &&
+        request.resource.data[field].size() <= maxLen;
+    }
+
+    function isValidBlessing() {
+      return hasRequiredFields(['name', 'message', 'createdAt']) &&
+             hasOnlyAllowedFields(['name', 'message', 'createdAt']) &&
+             validStringLength('name', 1, 50) &&
+             validStringLength('message', 1, 500) &&
+             request.resource.data.createdAt is timestamp;
+    }
+
+    match /blessings/{blessingId} {
+      // Public read for the marquee
+      allow read: if true;
+      
+      // Public create for the guestbook, but strictly validated
+      allow create: if isValidBlessing();
+      
+      // No updates or deletes allowed
+      allow update, delete: if false;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "entities": {
+    "Blessing": {
+      "title": "Blessing",
+      "description": "A user-submitted blessing message",
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Name of the person leaving the blessing"
+        },
+        "message": {
+          "type": "string",
+          "description": "The blessing text"
+        },
+        "createdAt": {
+          "type": "timestamp",
+          "description": "Time the blessing was created"
+        }
+      },
+      "required": ["name", "message", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/blessings/{blessingId}": {
+      "schema": {
+        "$ref": "#/entities/Blessing"
+      },
+      "description": "Collection of all blessings"
+    }
+  }
+}
