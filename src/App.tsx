@@ -358,31 +358,31 @@ export default function App() {
 
       {/* Marquee Blessings */}
       {blessings.length > 0 && (
-        <div className="w-full bg-[#6366f1] text-white py-2 overflow-hidden relative flex items-center z-50" dir="ltr">
-          <div className="whitespace-nowrap animate-marquee w-max flex font-medium">
+        <div className="w-full bg-[#6366f1] text-white py-2 overflow-hidden relative flex items-center z-50" dir={t.dir}>
+          <div className={`whitespace-nowrap w-max flex font-medium ${t.dir === 'rtl' ? 'animate-marquee-rtl' : 'animate-marquee'}`}>
             {blessings.map((b) => (
-              <span key={b.id} dir={t.dir} className="pr-12">✨ {b.name}: {b.message}</span>
+              <span key={b.id} className="pr-12">✨ {b.name}: {b.message}</span>
             ))}
             {blessings.map((b) => (
-              <span key={`dup1-${b.id}`} dir={t.dir} className="pr-12">✨ {b.name}: {b.message}</span>
+              <span key={`dup1-${b.id}`} className="pr-12">✨ {b.name}: {b.message}</span>
             ))}
             {blessings.map((b) => (
-              <span key={`dup2-${b.id}`} dir={t.dir} className="pr-12">✨ {b.name}: {b.message}</span>
+              <span key={`dup2-${b.id}`} className="pr-12">✨ {b.name}: {b.message}</span>
             ))}
             {blessings.map((b) => (
-              <span key={`dup3-${b.id}`} dir={t.dir} className="pr-12">✨ {b.name}: {b.message}</span>
+              <span key={`dup3-${b.id}`} className="pr-12">✨ {b.name}: {b.message}</span>
             ))}
             {blessings.map((b) => (
-              <span key={`dup4-${b.id}`} dir={t.dir} className="pr-12">✨ {b.name}: {b.message}</span>
+              <span key={`dup4-${b.id}`} className="pr-12">✨ {b.name}: {b.message}</span>
             ))}
             {blessings.map((b) => (
-              <span key={`dup5-${b.id}`} dir={t.dir} className="pr-12">✨ {b.name}: {b.message}</span>
+              <span key={`dup5-${b.id}`} className="pr-12">✨ {b.name}: {b.message}</span>
             ))}
             {blessings.map((b) => (
-              <span key={`dup6-${b.id}`} dir={t.dir} className="pr-12">✨ {b.name}: {b.message}</span>
+              <span key={`dup6-${b.id}`} className="pr-12">✨ {b.name}: {b.message}</span>
             ))}
             {blessings.map((b) => (
-              <span key={`dup7-${b.id}`} dir={t.dir} className="pr-12">✨ {b.name}: {b.message}</span>
+              <span key={`dup7-${b.id}`} className="pr-12">✨ {b.name}: {b.message}</span>
             ))}
           </div>
         </div>
