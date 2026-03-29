@@ -8,7 +8,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'הכינו בעצמכם מצות פריכות וטעימות תוך פחות מ-18 דקות של עבודה.',
         diff: 'קשה',
         time: '25 דקות',
-        img: '/מצות ביתיות.jpg',
+        img: '/matzah.jpg',
         ingredients: [
           '2 כוסות קמח חיטה (שמור במקום יבש וקריר)',
           '1/2 כוס מים קרים',
@@ -27,7 +27,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'הסוד לכדורי מצה אווריריים ומושלמים שפשוט נמסים בפה בתוך המרק.',
         diff: 'בינוני',
         time: '45 דקות',
-        img: '/קניידלך.jpg',
+        img: '/kneidlach.jpg',
         ingredients: [
           '1 כוס קמח מצה',
           '2 ביצים גדולות',
@@ -44,11 +44,11 @@ export const getRecipes = (lang: Language) => {
         ]
       },
       {
-        title: 'עוגת אגוזים',
-        desc: 'קינוח מושלם ונטול חמץ המשלב אגוזי מלך וניחוחות של שוקולד ותפוז.',
+        title: 'מצה בריי',
+        desc: 'מצה בריי קלאסית וטעימה, ארוחת בוקר מושלמת לימי הפסח.',
         diff: 'קל',
         time: '60 דקות',
-        img: 'https://images.unsplash.com/photo-1506459225024-1428097a7e18?auto=format&fit=crop&q=80&w=800',
+        img: '/matzah_brei.jpg',
         ingredients: [
           '6 ביצים מופרדות לחלבונים וחלמונים',
           '1.5 כוסות סוכר',
@@ -70,7 +70,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'לביבות תפוחי אדמה פריכות וזהובות, קלאסיקה שתמיד כיף לאכול.',
         diff: 'קל',
         time: '30 דקות',
-        img: '/לביבות.jpg',
+        img: '/latkes.jpg',
         ingredients: [
           '4 תפוחי אדמה גדולים, קלופים',
           '1 בצל גדול',
@@ -93,7 +93,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'הממרח המתוק והסמלי של קערת הסדר, בגרסה עשירה ומלאת טעמים.',
         diff: 'קל',
         time: '15 דקות',
-        img: '/חרוסת.jpg',
+        img: '/charoset.jpg',
         ingredients: [
           '1 כוס אגוזי מלך קצוצים דק',
           '1 כוס תמרים מגולענים וקצוצים (או ממרח תמרים)',
@@ -113,7 +113,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'קציצות דג מסורתיות ברוטב מתקתק, מנה ראשונה קלאסית לשולחן החג.',
         diff: 'קשה',
         time: '120 דקות',
-        img: '/גפילטע פיש.jpg',
+        img: '/gefilte_fish.jpg',
         ingredients: [
           '1 ק"ג דג קרפיון טחון',
           '2 בצלים גדולים (1 מגורד, 1 פרוס לרוטב)',
@@ -131,11 +131,11 @@ export const getRecipes = (lang: Language) => {
         ]
       },
       {
-        title: 'צלי בקר',
-        desc: 'מנה עיקרית חגיגית ומרשימה, בשר רך שנימוח בפה ברוטב עשיר.',
+        title: 'חרוסת מסורתית',
+        desc: 'חרוסת מסורתית עשירה בטעמים, תוספת מתוקה וסמלית לשולחן הסדר.',
         diff: 'בינוני',
         time: '180 דקות',
-        img: 'https://images.unsplash.com/photo-1588168333986-5078d3ae3976?auto=format&fit=crop&q=80&w=800',
+        img: '/charoset_masortit.jpg',
         ingredients: [
           '1.5 ק"ג בשר בקר לצלי (מספר 5 או 6)',
           '2 בצלים גדולים קצוצים',
@@ -157,7 +157,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'מרק עוף זהוב וצלול, "הפניצילין היהודי", מושלם עם קניידלך.',
         diff: 'קל',
         time: '120 דקות',
-        img: '/מרק עוף צח.jpg',
+        img: '/chicken_soup.jpg',
         ingredients: [
           '1 עוף שלם מחולק (או חלקי עוף עם עצם)',
           '3 גזרים',
@@ -179,7 +179,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'תוספת קלאסית ואהובה, תפוחי אדמה פריכים מבחוץ ורכים מבפנים.',
         diff: 'קל',
         time: '60 דקות',
-        img: '/תפוחי אדמה בתנור.jpg',
+        img: '/potatoes.jpg',
         ingredients: [
           '1 ק"ג תפוחי אדמה קטנים או חתוכים לקוביות',
           '1/4 כוס שמן זית',
@@ -200,7 +200,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'עוגיות בוטנים נימוחות ומושלמות לפסח, נמסות בפה.',
         diff: 'קל',
         time: '20 דקות',
-        img: '/עוגיות בוטנים.jpg',
+        img: '/peanut_cookies.jpg',
         ingredients: [
           '3 כוסות בוטנים קלויים (ללא מלח) וטחונים דק',
           '1 כוס סוכר',
@@ -224,7 +224,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'Make your own crispy and delicious matzah in less than 18 minutes of work.',
         diff: 'Hard',
         time: '25 mins',
-        img: '/מצות ביתיות.jpg',
+        img: '/matzah.jpg',
         ingredients: [
           '2 cups wheat flour (kept in a dry, cool place)',
           '1/2 cup cold water',
@@ -243,7 +243,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'The secret to perfect, fluffy matzah balls that simply melt in your mouth in the soup.',
         diff: 'Medium',
         time: '45 mins',
-        img: '/קניידלך.jpg',
+        img: '/kneidlach.jpg',
         ingredients: [
           '1 cup matzah meal',
           '2 large eggs',
@@ -260,11 +260,11 @@ export const getRecipes = (lang: Language) => {
         ]
       },
       {
-        title: 'Walnut Cake',
-        desc: 'A perfect, chametz-free dessert combining walnuts with aromas of chocolate and orange.',
+        title: 'Matzah Brei',
+        desc: 'Classic and delicious Matzah Brei, a perfect breakfast for Passover days.',
         diff: 'Easy',
         time: '60 mins',
-        img: 'https://images.unsplash.com/photo-1506459225024-1428097a7e18?auto=format&fit=crop&q=80&w=800',
+        img: '/matzah_brei.jpg',
         ingredients: [
           '6 eggs, separated into whites and yolks',
           '1.5 cups sugar',
@@ -286,7 +286,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'Crispy and golden potato pancakes, a classic that is always fun to eat.',
         diff: 'Easy',
         time: '30 mins',
-        img: '/לביבות.jpg',
+        img: '/latkes.jpg',
         ingredients: [
           '4 large potatoes, peeled',
           '1 large onion',
@@ -309,7 +309,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'The sweet and symbolic spread of the Seder plate, in a rich and flavorful version.',
         diff: 'Easy',
         time: '15 mins',
-        img: '/חרוסת.jpg',
+        img: '/charoset.jpg',
         ingredients: [
           '1 cup finely chopped walnuts',
           '1 cup pitted and chopped dates (or date spread)',
@@ -329,7 +329,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'Traditional fish patties in a sweet sauce, a classic appetizer for the holiday table.',
         diff: 'Hard',
         time: '120 mins',
-        img: '/גפילטע פיש.jpg',
+        img: '/gefilte_fish.jpg',
         ingredients: [
           '1 kg ground carp fish',
           '2 large onions (1 grated, 1 sliced for sauce)',
@@ -347,11 +347,11 @@ export const getRecipes = (lang: Language) => {
         ]
       },
       {
-        title: 'Roast Beef',
-        desc: 'A festive and impressive main course, tender meat that melts in your mouth in a rich sauce.',
+        title: 'Traditional Charoset',
+        desc: 'Traditional Charoset rich in flavors, a sweet and symbolic addition to the Seder table.',
         diff: 'Medium',
         time: '180 mins',
-        img: 'https://images.unsplash.com/photo-1588168333986-5078d3ae3976?auto=format&fit=crop&q=80&w=800',
+        img: '/charoset_masortit.jpg',
         ingredients: [
           '1.5 kg beef roast (number 5 or 6)',
           '2 large onions, chopped',
@@ -373,7 +373,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'Golden and clear chicken soup, "Jewish penicillin", perfect with kneidlach.',
         diff: 'Easy',
         time: '120 mins',
-        img: '/מרק עוף צח.jpg',
+        img: '/chicken_soup.jpg',
         ingredients: [
           '1 whole chicken, cut up (or chicken parts with bone)',
           '3 carrots',
@@ -395,7 +395,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'A classic and beloved side dish, potatoes crispy on the outside and soft on the inside.',
         diff: 'Easy',
         time: '60 mins',
-        img: '/תפוחי אדמה בתנור.jpg',
+        img: '/potatoes.jpg',
         ingredients: [
           '1 kg small potatoes or diced potatoes',
           '1/4 cup olive oil',
@@ -416,7 +416,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'Soft and perfect peanut cookies for Passover, melting in your mouth.',
         diff: 'Easy',
         time: '20 mins',
-        img: '/עוגיות בוטנים.jpg',
+        img: '/peanut_cookies.jpg',
         ingredients: [
           '3 cups roasted peanuts (unsalted) and finely ground',
           '1 cup sugar',
@@ -440,7 +440,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'Приготовьте хрустящую и вкусную мацу менее чем за 18 минут работы.',
         diff: 'Сложно',
         time: '25 мин',
-        img: '/מצות ביתיות.jpg',
+        img: '/matzah.jpg',
         ingredients: [
           '2 стакана пшеничной муки (хранить в сухом прохладном месте)',
           '1/2 стакана холодной воды',
@@ -459,7 +459,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'Секрет идеальных, воздушных шариков из мацы, которые просто тают во рту в супе.',
         diff: 'Средне',
         time: '45 мин',
-        img: '/קניידלך.jpg',
+        img: '/kneidlach.jpg',
         ingredients: [
           '1 стакан мацовой муки',
           '2 крупных яйца',
@@ -476,11 +476,11 @@ export const getRecipes = (lang: Language) => {
         ]
       },
       {
-        title: 'Ореховый торт',
-        desc: 'Идеальный десерт без хамеца, сочетающий грецкие орехи с ароматами шоколада и апельсина.',
+        title: 'Маца Брай',
+        desc: 'Классическая и вкусная Маца Брай, идеальный завтрак на дни Песаха.',
         diff: 'Легко',
         time: '60 мин',
-        img: 'https://images.unsplash.com/photo-1506459225024-1428097a7e18?auto=format&fit=crop&q=80&w=800',
+        img: '/matzah_brei.jpg',
         ingredients: [
           '6 яиц, разделить на белки и желтки',
           '1.5 стакана сахара',
@@ -502,7 +502,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'Хрустящие золотистые картофельные оладьи, классика, которую всегда приятно есть.',
         diff: 'Легко',
         time: '30 мин',
-        img: '/לביבות.jpg',
+        img: '/latkes.jpg',
         ingredients: [
           '4 крупные картофелины, очищенные',
           '1 крупная луковица',
@@ -525,7 +525,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'Сладкая и символичная паста для кеары, в богатой и ароматной версии.',
         diff: 'Легко',
         time: '15 мин',
-        img: '/חרוסת.jpg',
+        img: '/charoset.jpg',
         ingredients: [
           '1 стакан мелко нарезанных грецких орехов',
           '1 стакан фиников без косточек, нарезанных (или финиковой пасты)',
@@ -545,7 +545,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'Традиционные рыбные котлеты в сладковатом соусе, классическая закуска для праздничного стола.',
         diff: 'Сложно',
         time: '120 мин',
-        img: '/גפילטע פיש.jpg',
+        img: '/gefilte_fish.jpg',
         ingredients: [
           '1 кг фарша из карпа',
           '2 крупные луковицы (1 тертая, 1 нарезанная для соуса)',
@@ -563,11 +563,11 @@ export const getRecipes = (lang: Language) => {
         ]
       },
       {
-        title: 'Жаркое из говядины',
-        desc: 'Праздничное и впечатляющее основное блюдо, нежное мясо, тающее во рту в насыщенном соусе.',
+        title: 'Традиционный Харосет',
+        desc: 'Традиционный Харосет с богатым вкусом, сладкое и символичное дополнение к столу Седера.',
         diff: 'Средне',
         time: '180 мин',
-        img: 'https://images.unsplash.com/photo-1588168333986-5078d3ae3976?auto=format&fit=crop&q=80&w=800',
+        img: '/charoset_masortit.jpg',
         ingredients: [
           '1.5 кг говядины для жаркого (номер 5 или 6)',
           '2 крупные луковицы, нарезанные',
@@ -589,7 +589,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'Золотистый и прозрачный куриный бульон, "еврейский пенициллин", идеально подходит с кнейдлах.',
         diff: 'Легко',
         time: '120 мин',
-        img: '/מרק עוף צח.jpg',
+        img: '/chicken_soup.jpg',
         ingredients: [
           '1 целая курица, разрезанная на части (или куриные части с костями)',
           '3 моркови',
@@ -611,7 +611,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'Классический и любимый гарнир, картофель хрустящий снаружи и мягкий внутри.',
         diff: 'Легко',
         time: '60 мин',
-        img: '/תפוחי אדמה בתנור.jpg',
+        img: '/potatoes.jpg',
         ingredients: [
           '1 кг мелкого картофеля или нарезанного кубиками',
           '1/4 стакана оливкового масла',
@@ -632,7 +632,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'Мягкое и идеальное арахисовое печенье для Песаха, тающее во рту.',
         diff: 'Легко',
         time: '20 мин',
-        img: '/עוגיות בוטנים.jpg',
+        img: '/peanut_cookies.jpg',
         ingredients: [
           '3 стакана жареного арахиса (без соли) и мелко молотого',
           '1 стакан сахара',
@@ -656,7 +656,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'Préparez votre propre matsa croustillante et délicieuse en moins de 18 minutes de travail.',
         diff: 'Difficile',
         time: '25 min',
-        img: '/מצות ביתיות.jpg',
+        img: '/matzah.jpg',
         ingredients: [
           '2 tasses de farine de blé (conservée dans un endroit sec et frais)',
           '1/2 tasse d\'eau froide',
@@ -675,7 +675,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'Le secret de boulettes de matsa parfaites et moelleuses qui fondent simplement dans la bouche dans la soupe.',
         diff: 'Moyen',
         time: '45 min',
-        img: '/קניידלך.jpg',
+        img: '/kneidlach.jpg',
         ingredients: [
           '1 tasse de farine de matsa',
           '2 gros œufs',
@@ -692,11 +692,11 @@ export const getRecipes = (lang: Language) => {
         ]
       },
       {
-        title: 'Gâteau aux noix',
-        desc: 'Un dessert parfait sans hamets combinant des noix avec des arômes de chocolat et d\'orange.',
+        title: 'Matza Brei',
+        desc: 'Matza Brei classique et délicieuse, un petit-déjeuner parfait pour les jours de Pessa\'h.',
         diff: 'Facile',
         time: '60 min',
-        img: 'https://images.unsplash.com/photo-1506459225024-1428097a7e18?auto=format&fit=crop&q=80&w=800',
+        img: '/matzah_brei.jpg',
         ingredients: [
           '6 œufs, séparés en blancs et jaunes',
           '1,5 tasse de sucre',
@@ -718,7 +718,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'Galettes de pommes de terre croustillantes et dorées, un classique toujours agréable à manger.',
         diff: 'Facile',
         time: '30 min',
-        img: '/לביבות.jpg',
+        img: '/latkes.jpg',
         ingredients: [
           '4 grosses pommes de terre, épluchées',
           '1 gros oignon',
@@ -741,7 +741,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'La pâte douce et symbolique du plat du Séder, dans une version riche et savoureuse.',
         diff: 'Facile',
         time: '15 min',
-        img: '/חרוסת.jpg',
+        img: '/charoset.jpg',
         ingredients: [
           '1 tasse de noix finement hachées',
           '1 tasse de dattes dénoyautées et hachées (ou pâte de dattes)',
@@ -761,7 +761,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'Boulettes de poisson traditionnelles dans une sauce douce, une entrée classique pour la table de fête.',
         diff: 'Difficile',
         time: '120 min',
-        img: '/גפילטע פיש.jpg',
+        img: '/gefilte_fish.jpg',
         ingredients: [
           '1 kg de carpe hachée',
           '2 gros oignons (1 râpé, 1 tranché pour la sauce)',
@@ -779,11 +779,11 @@ export const getRecipes = (lang: Language) => {
         ]
       },
       {
-        title: 'Rôti de bœuf',
-        desc: 'Un plat principal festif et impressionnant, une viande tendre qui fond dans la bouche dans une sauce riche.',
+        title: 'Harosset Traditionnelle',
+        desc: 'Harosset traditionnelle riche en saveurs, un ajout doux et symbolique à la table du Séder.',
         diff: 'Moyen',
         time: '180 min',
-        img: 'https://images.unsplash.com/photo-1588168333986-5078d3ae3976?auto=format&fit=crop&q=80&w=800',
+        img: '/charoset_masortit.jpg',
         ingredients: [
           '1,5 kg de rôti de bœuf (numéro 5 ou 6)',
           '2 gros oignons, hachés',
@@ -805,7 +805,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'Soupe de poulet dorée et claire, la "pénicilline juive", parfaite avec des kneidlach.',
         diff: 'Facile',
         time: '120 min',
-        img: '/מרק עוף צח.jpg',
+        img: '/chicken_soup.jpg',
         ingredients: [
           '1 poulet entier, coupé en morceaux (ou morceaux de poulet avec os)',
           '3 carottes',
@@ -827,7 +827,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'Un plat d\'accompagnement classique et apprécié, des pommes de terre croustillantes à l\'extérieur et moelleuses à l\'intérieur.',
         diff: 'Facile',
         time: '60 min',
-        img: '/תפוחי אדמה בתנור.jpg',
+        img: '/potatoes.jpg',
         ingredients: [
           '1 kg de petites pommes de terre ou de pommes de terre en dés',
           '1/4 tasse d\'huile d\'olive',
@@ -848,7 +848,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'Biscuits aux cacahuètes moelleux et parfaits pour la Pâque, fondant dans la bouche.',
         diff: 'Facile',
         time: '20 min',
-        img: '/עוגיות בוטנים.jpg',
+        img: '/peanut_cookies.jpg',
         ingredients: [
           '3 tasses de cacahuètes grillées (non salées) et finement moulues',
           '1 tasse de sucre',
@@ -872,7 +872,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'Prepara tu propia matzá crujiente y deliciosa en menos de 18 minutos de trabajo.',
         diff: 'Difícil',
         time: '25 min',
-        img: '/מצות ביתיות.jpg',
+        img: '/matzah.jpg',
         ingredients: [
           '2 tazas de harina de trigo (guardada en un lugar seco y fresco)',
           '1/2 taza de agua fría',
@@ -891,7 +891,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'El secreto para unas bolas de matzá perfectas y esponjosas que simplemente se deshacen en la boca en la sopa.',
         diff: 'Medio',
         time: '45 min',
-        img: '/קניידלך.jpg',
+        img: '/kneidlach.jpg',
         ingredients: [
           '1 taza de harina de matzá',
           '2 huevos grandes',
@@ -908,11 +908,11 @@ export const getRecipes = (lang: Language) => {
         ]
       },
       {
-        title: 'Pastel de nueces',
-        desc: 'Un postre perfecto sin jametz que combina nueces con aromas de chocolate y naranja.',
+        title: 'Matzá Brei',
+        desc: 'Matzá Brei clásica y deliciosa, un desayuno perfecto para los días de Pésaj.',
         diff: 'Fácil',
         time: '60 min',
-        img: 'https://images.unsplash.com/photo-1506459225024-1428097a7e18?auto=format&fit=crop&q=80&w=800',
+        img: '/matzah_brei.jpg',
         ingredients: [
           '6 huevos, separados en claras y yemas',
           '1.5 tazas de azúcar',
@@ -934,7 +934,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'Tortitas de patata crujientes y doradas, un clásico que siempre es un placer comer.',
         diff: 'Fácil',
         time: '30 min',
-        img: '/לביבות.jpg',
+        img: '/latkes.jpg',
         ingredients: [
           '4 patatas grandes, peladas',
           '1 cebolla grande',
@@ -957,7 +957,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'La pasta dulce y simbólica del plato del Séder, en una versión rica y sabrosa.',
         diff: 'Fácil',
         time: '15 min',
-        img: '/חרוסת.jpg',
+        img: '/charoset.jpg',
         ingredients: [
           '1 taza de nueces finamente picadas',
           '1 taza de dátiles deshuesados y picados (o pasta de dátiles)',
@@ -977,7 +977,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'Tortitas de pescado tradicionales en salsa dulce, un aperitivo clásico para la mesa festiva.',
         diff: 'Difícil',
         time: '120 min',
-        img: '/גפילטע פיש.jpg',
+        img: '/gefilte_fish.jpg',
         ingredients: [
           '1 kg de carpa molida',
           '2 cebollas grandes (1 rallada, 1 en rodajas para la salsa)',
@@ -995,11 +995,11 @@ export const getRecipes = (lang: Language) => {
         ]
       },
       {
-        title: 'Asado de ternera',
-        desc: 'Un plato principal festivo e impresionante, carne tierna que se deshace en la boca en una rica salsa.',
+        title: 'Jaróset Tradicional',
+        desc: 'Jaróset tradicional rico en sabores, una adición dulce y simbólica a la mesa del Séder.',
         diff: 'Medio',
         time: '180 min',
-        img: 'https://images.unsplash.com/photo-1588168333986-5078d3ae3976?auto=format&fit=crop&q=80&w=800',
+        img: '/charoset_masortit.jpg',
         ingredients: [
           '1.5 kg de asado de ternera (número 5 o 6)',
           '2 cebollas grandes, picadas',
@@ -1021,7 +1021,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'Sopa de pollo dorada y clara, "penicilina judía", perfecta con kneidlach.',
         diff: 'Fácil',
         time: '120 min',
-        img: '/מרק עוף צח.jpg',
+        img: '/chicken_soup.jpg',
         ingredients: [
           '1 pollo entero, cortado en trozos (o partes de pollo con hueso)',
           '3 zanahorias',
@@ -1043,7 +1043,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'Una guarnición clásica y querida, patatas crujientes por fuera y suaves por dentro.',
         diff: 'Fácil',
         time: '60 min',
-        img: '/תפוחי אדמה בתנור.jpg',
+        img: '/potatoes.jpg',
         ingredients: [
           '1 kg de patatas pequeñas o patatas en cubitos',
           '1/4 taza de aceite de oliva',
@@ -1064,7 +1064,7 @@ export const getRecipes = (lang: Language) => {
         desc: 'Galletas de cacahuete suaves y perfectas para Pésaj, que se deshacen en la boca.',
         diff: 'Fácil',
         time: '20 min',
-        img: '/עוגיות בוטנים.jpg',
+        img: '/peanut_cookies.jpg',
         ingredients: [
           '3 tazas de cacahuetes tostados (sin sal) y finamente molidos',
           '1 taza de azúcar',
